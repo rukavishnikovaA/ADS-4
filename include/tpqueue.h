@@ -62,7 +62,6 @@ T TPQueue<T>::pop() {
   if (begin > size) {
       begin -= size + 1;
   }
-  
   return item;
 }
 template<typename T>
